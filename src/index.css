@@ -1,0 +1,14 @@
+body {
+    font-family: Montserrat, sans-serif !important;
+    background-color: #f2f2f2 !important;
+}
+.wrapper {
+    margin-top: 5em;
+    margin-bottom: 12em;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        margin-bottom: 14em;
+    }
+}

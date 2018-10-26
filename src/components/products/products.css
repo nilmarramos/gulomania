@@ -1,0 +1,90 @@
+.lds-text {
+    font-size: 22px;
+    color: #DD9963;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid #DD9963;
+    border-color: #DD9963 transparent #DD9963 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.title-product {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.box-prod {
+    background-color: white;
+}
+.price-prod {
+    font-weight: bold;
+    margin-bottom: 5px !important;
+}
+.bt {
+    background-color: #DD9963;
+    border-radius: 0 !important;
+    font-size: 20px !important;
+    color: white;
+}
+
+.stepper-input {
+    display: flex;
+    color: #666;
+    max-width: 120px;
+    margin: 0 auto 20px;
+}
+.stepper-input .decrement,
+.stepper-input .increment {
+    height: 24px;
+    width: 24px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.stepper-input .quantity {
+    height: 24px;
+    width: 48px;
+    text-align: center;
+    margin: 0 12px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+.close {
+    color: #dd1611 !important;
+}
+
+.styles_modal__gNwvD {
+    max-width: 400px;
+}

@@ -1,0 +1,79 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+.fixe-bottom {
+    position: fixed !important;
+    bottom: 0;
+    z-index: 1030;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #DD9963;
+    width: 100%;
+    height: auto;
+    padding-top: 0.8em;
+}
+
+.hr {
+    border-color: rgba(255,255,255,0.5);
+}
+
+.pag {
+    text-align: center;
+}
+.pag h1 {
+    color: white;
+    font-size: 18px;
+    margin-top: 2%;
+}
+.pag img {
+    width: 50%;
+}
+.social {
+    text-align: center;
+}
+
+.social h1 {
+    color: white;
+    font-size: 18px;
+    margin-top: 5%;
+}
+.w {
+    margin-left: 5%;
+    width: 20% !important;
+}
+.social img {
+    margin-top: 5%;
+    width: 10%;
+}
+
+@media (min-width: 768px) {
+    .pag h1 {
+        font-size: 20px;
+        margin-top: 2%;
+    }
+    .pag img {
+        width: 20%;
+    }
+    .social h1 {
+        font-size: 20px;
+        margin-top: 4%;
+    }
+    .w {
+        margin-left: 5%;
+        width: 6% !important;
+    }
+    .social img {
+        margin-top: 3%;
+        width: 3%;
+    }
+    .end h1 {
+        font-size: 20px;
+        margin-top: 3px;
+    }
+}
+

@@ -1,0 +1,72 @@
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.bag {
+    display: flex;
+    align-items: flex-end;
+}
+.badge {
+    position: absolute;
+}
+.title-header{
+    color: #BC753C;
+    font-size: 25px !important;
+}
+.icon-menu {
+    cursor: pointer;
+    width: 37px;
+    height: 45px;
+}
+.icon {
+    width: 50px;
+    height: 40px;
+}
+.bt-cart {
+    margin-top: 15px;
+}
+.menu {
+    background-color: #BC753C;
+    padding: 1em;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.menu-list {
+    font-size: 20px;
+    font-weight: bold;
+}
+.list-group-item > a{
+    color: #BC753C;
+    padding: 0.5em;
+}
+.icon-bread {
+    background: url("./bread.svg") no-repeat;
+    margin-top: 10px;
+}
+.icon-cookie {
+    background: url("./cookie.svg") no-repeat;
+}
+.icon-cake {
+    background: url("./cake.svg") no-repeat;
+}
+.icon-cupcake {
+    background: url("./cupcake.svg") no-repeat;
+}
+.icon-low {
+    background: url("./broccoli.svg") no-repeat;
+}
+.icon-chicken {
+    background: url("./chicken.svg") no-repeat;
+}
+.icon-wine {
+    background: url("./wine.svg") no-repeat;
+}
+.icon-plus {
+    background: url("./plus-button.svg") no-repeat;
+}
+
